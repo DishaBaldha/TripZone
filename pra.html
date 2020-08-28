@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Packages</title>
+  <link rel="stylesheet" type="text/css" href="package.css">
+  <link rel="stylesheet" type="text/css" href="home.css">
+	<style type="text/css">
+
+
+	</style>
+    <script type="text/javascript">
+        function abc() {
+    var rotator = document.getElementById('rotator'), //get the element
+                                      //images folder
+        delayInSeconds = 1,                           //delay in seconds
+        num = 1,                                      //start number
+        len = 6;                                      //limit
+    setInterval(function(){                           //interval changer
+        rotator.src = num+'.jpg';               //change picture
+        num = (num === len) ? 0 : ++num;              //reset if last image reached
+    }, delayInSeconds * 50);
+}
+    </script>
+</head>
+
+
+<body>
+<div>
+  <div class="div1" style="z-index: 10;">
+        <a class="a" href="home.html">Home</a>
+        <a class="a" href="package.html">Package</a>
+        <a class="a" href="">Package book</a>
+        <a class="a" href="">about us</a>
+        <a class="a" href="regi.html">Registration</a>
+        <b style="float: right;">TripZone</b><img src="logo.png" class="img1">
+    </div>
+    <br><br><br>
+  <h2 align="center">Packages</h2>
+  <hr width="80%">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<script type="text/javascript">
+    abc();
+    for (var i = 1; i <=6; i++) {
+        document.write("<img src='img/1.jpg' style='width:350px; height:250px;' >" );
+    }
+
+    
+</script>
+
+<!--<div class="i-border" >
+	<div class="img-holder">
+                        <img src="" style="width:350px; height:250px;">
+                        <span class="price-holder">Rs.9000</span>
+                        <div style="background-color: red;">
+                        <h1 class="write" style="">Rajsthan</h1>
+                        </div>
+                        <h2 class="write1">View Detail</h2>
+                    </div>
+                    
+ 
+                        
+        </div>-->
+        <script type="text/javascript">
+            
+        </script>
+         
+        
+ 
+<iframe src=""></iframe>
+
+</div>
+</body>
+</html>
